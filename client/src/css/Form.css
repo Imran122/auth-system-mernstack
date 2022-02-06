@@ -1,0 +1,112 @@
+.form-section {
+	padding: 70px 0;
+}
+
+.form-area {
+	max-width: 500px;
+}
+
+.form .form-title h1 {
+	font-size: 50px;
+	color: #1E2B4A;
+}
+
+.form .form-title h1 span {
+	color: #ed502e;
+}
+
+.c-f-form .forgot-password-text a {
+	color: #212529;
+}
+
+form .form-submit-btn input {
+	background-color: #1E2B4A;
+}
+form .form-submit-btn input:hover {
+	background-color: #ed502e;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.create-new-account p {
+	color: #212529;
+}
+
+.or-text span {
+	font-size: 18px;
+}
+
+.signin-icon button p {
+	color: #212529;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="submit"],
+.form input[type="tel"],
+.form input[type="date"],
+.select-form {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.form input[type="date"] {
+	cursor: pointer;
+}
+
+.line span::before,
+.line span::after {
+	content: "";
+	background-color: #212529;
+	width: 120px;
+	height: 1px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.line span::before {
+	left: -130px;
+}
+
+.line span::after {
+	right: -130px;
+}
+
+.signin-icon img {
+	width: 30px;
+	height: 30px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+	.form .form-title h2 {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 390px) {
+	.form {
+		padding: 20px !important;
+	}
+}
+
+@media (max-width: 455px) {
+	.c-f-form {
+		flex-direction: column;
+	}
+
+	.c-f-form .form-check {
+		margin-bottom: 10px;
+	}
+}
+
